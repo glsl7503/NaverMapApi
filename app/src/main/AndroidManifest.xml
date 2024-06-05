@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.foreknowledge.navermaptest">
+
+<!-- 애플리케이션이 필요로하는 권한을 정의한다. 인터넷 및 위치 접근 권한이 필요한 것으로 정의되있다.-->
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+<!--	애플리케이션의 기본 설정 및 구성을 정의합니다. 이 요소는 다음과 같은 속성을 포함합니다.
+name: Application 클래스를 지정함
+allowBackup: 데이터의 백업을 허용할지 여부 지정
+icon: 아이콘을 지정한다.
+label: 표시 이름을 지정한다.
+roundIcon: 라운드 아이콘을 지정한다.
+supportsRtl: RTL(Right-to-Left) 레이아웃 지원 여부를 지정합니다.
+theme: 기본 테마를 지정한다.
+
+<activity>: 애플리케이션 내의 화면(Activity)을 정의합니다. 이 요소는 다음과 같은 속성을 포함합니다:
+
+android:name: 활동의 클래스 이름을 지정합니다.
+<intent-filter>: 활동에 대한 인텐트 필터를 정의합니다. 이것은 활동이 런처 화면으로 사용되도록 지정합니다.
+<action>: 인텐트에 대한 액션을 지정합니다.
+<category>: 활동이 어떤 범주에 속하는지를 지정합니다.
+-->
+
+	<application
+
+		android:name=".GlobalApplication"
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		<activity android:name=".ui.MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+
+</manifest>
