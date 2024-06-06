@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.foreknowledge.navermaptest">
+	package="com.foreknowledge.navermapapi">
 
 <!-- 애플리케이션이 필요로하는 권한을 정의한다. 인터넷 및 위치 접근 권한이 필요한 것으로 정의되있다.-->
 	<uses-permission android:name="android.permission.INTERNET" />
@@ -24,7 +24,6 @@ android:name: 활동의 클래스 이름을 지정합니다.
 -->
 
 	<application
-
 		android:name=".GlobalApplication"
 		android:allowBackup="true"
 		android:icon="@mipmap/ic_launcher"

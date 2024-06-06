@@ -1,8 +1,8 @@
-package com.foreknowledge.navermaptest.model.room
+package com.foreknowledge.navermapapi.model.room
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.foreknowledge.navermaptest.util.PlaceUtil
+import com.foreknowledge.navermapapi.util.PlaceUtil
 
 /**
  * Created by Yeji on 08,April,2020.

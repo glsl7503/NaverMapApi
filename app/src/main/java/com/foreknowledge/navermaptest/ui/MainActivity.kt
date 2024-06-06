@@ -1,4 +1,4 @@
-package com.foreknowledge.navermaptest.ui
+package com.foreknowledge.navermapapi.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,13 +8,13 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.foreknowledge.navermaptest.LOCATION_PERMISSION_REQUEST_CODE
-import com.foreknowledge.navermaptest.R
-import com.foreknowledge.navermaptest.databinding.ActivityMainBinding
-import com.foreknowledge.navermaptest.model.repository.NaverRepository
-import com.foreknowledge.navermaptest.util.ToastUtil
-import com.foreknowledge.navermaptest.viewmodel.MapViewModel
-import com.foreknowledge.navermaptest.viewmodel.MainViewModelFactory
+import com.foreknowledge.navermapapi.LOCATION_PERMISSION_REQUEST_CODE
+import com.foreknowledge.navermapapi.R
+import com.foreknowledge.navermapapi.databinding.ActivityMainBinding
+import com.foreknowledge.navermapapi.model.repository.NaverRepository
+import com.foreknowledge.navermapapi.util.ToastUtil
+import com.foreknowledge.navermapapi.viewmodel.MapViewModel
+import com.foreknowledge.navermapapi.viewmodel.MainViewModelFactory
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.naver.maps.map.LocationTrackingMode
 import com.naver.maps.map.MapFragment

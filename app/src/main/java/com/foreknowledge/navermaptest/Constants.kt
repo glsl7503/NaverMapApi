@@ -1,4 +1,4 @@
-package com.foreknowledge.navermaptest
+package com.foreknowledge.navermapapi
 
 /**
  * Created by Yeji on 15,April,2020.

@@ -1,15 +1,15 @@
-package com.foreknowledge.navermaptest.viewmodel
+package com.foreknowledge.navermapapi.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.foreknowledge.navermaptest.R
-import com.foreknowledge.navermaptest.model.data.Place
-import com.foreknowledge.navermaptest.model.repository.NaverRepository
-import com.foreknowledge.navermaptest.util.GeoUtil.convertStr
-import com.foreknowledge.navermaptest.util.PlaceUtil
-import com.foreknowledge.navermaptest.util.StringUtil
+import com.foreknowledge.navermapapi.R
+import com.foreknowledge.navermapapi.model.data.Place
+import com.foreknowledge.navermapapi.model.repository.NaverRepository
+import com.foreknowledge.navermapapi.util.GeoUtil.convertStr
+import com.foreknowledge.navermapapi.util.PlaceUtil
+import com.foreknowledge.navermapapi.util.StringUtil
 import com.naver.maps.map.NaverMap
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

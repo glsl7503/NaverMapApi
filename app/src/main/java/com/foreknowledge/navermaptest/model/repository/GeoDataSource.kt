@@ -1,7 +1,7 @@
-package com.foreknowledge.navermaptest.model.repository
+package com.foreknowledge.navermapapi.model.repository
 
-import com.foreknowledge.navermaptest.network.GeoResponse
-import com.foreknowledge.navermaptest.network.RetrofitClient
+import com.foreknowledge.navermapapi.network.GeoResponse
+import com.foreknowledge.navermapapi.network.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

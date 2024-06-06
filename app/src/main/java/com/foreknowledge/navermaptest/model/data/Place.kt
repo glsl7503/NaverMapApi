@@ -1,4 +1,4 @@
-package com.foreknowledge.navermaptest.model.data
+package com.foreknowledge.navermapapi.model.data
 
 import com.naver.maps.map.overlay.Marker
 

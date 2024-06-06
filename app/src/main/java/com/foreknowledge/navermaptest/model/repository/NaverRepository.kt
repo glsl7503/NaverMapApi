@@ -1,9 +1,9 @@
-package com.foreknowledge.navermaptest.model.repository
+package com.foreknowledge.navermapapi.model.repository
 
 import android.content.Context
 import android.util.Log
-import com.foreknowledge.navermaptest.network.GeoResponse
-import com.foreknowledge.navermaptest.model.room.PlaceEntity
+import com.foreknowledge.navermapapi.network.GeoResponse
+import com.foreknowledge.navermapapi.model.room.PlaceEntity
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.geometry.Utmk
 

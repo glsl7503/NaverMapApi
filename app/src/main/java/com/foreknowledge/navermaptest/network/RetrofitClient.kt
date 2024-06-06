@@ -1,6 +1,6 @@
-package com.foreknowledge.navermaptest.network
+package com.foreknowledge.navermapapi.network
 
-import com.foreknowledge.navermaptest.BASE_URL
+import com.foreknowledge.navermapapi.BASE_URL
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

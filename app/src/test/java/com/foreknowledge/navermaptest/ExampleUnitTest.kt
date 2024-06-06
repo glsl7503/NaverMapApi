@@ -1,4 +1,4 @@
-package com.foreknowledge.navermaptest
+package com.foreknowledge.navermapapi
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.foreknowledge.navermaptest
+package com.foreknowledge.navermapapi
 
 import android.app.Application
 import android.content.Context

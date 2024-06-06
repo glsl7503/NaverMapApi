@@ -1,4 +1,4 @@
-package com.foreknowledge.navermaptest.model.room
+package com.foreknowledge.navermapapi.model.room
 
 import androidx.room.*
 

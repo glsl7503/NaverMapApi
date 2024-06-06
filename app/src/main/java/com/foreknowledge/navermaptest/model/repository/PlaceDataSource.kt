@@ -1,9 +1,9 @@
-package com.foreknowledge.navermaptest.model.repository
+package com.foreknowledge.navermapapi.model.repository
 
 import android.content.Context
-import com.foreknowledge.navermaptest.model.data.Place
-import com.foreknowledge.navermaptest.model.room.DatabaseService
-import com.foreknowledge.navermaptest.model.room.PlaceEntity
+import com.foreknowledge.navermapapi.model.data.Place
+import com.foreknowledge.navermapapi.model.room.DatabaseService
+import com.foreknowledge.navermapapi.model.room.PlaceEntity
 
 /**
  * Created by Yeji on 08,April,2020.

@@ -1,8 +1,8 @@
-package com.foreknowledge.navermaptest.network
+package com.foreknowledge.navermapapi.network
 
-import com.foreknowledge.navermaptest.BuildConfig
-import com.foreknowledge.navermaptest.HEADER_CLIENT_ID
-import com.foreknowledge.navermaptest.HEADER_CLIENT_SECRET
+import com.foreknowledge.navermapapi.BuildConfig
+import com.foreknowledge.navermapapi.HEADER_CLIENT_ID
+import com.foreknowledge.navermapapi.HEADER_CLIENT_SECRET
 import okhttp3.Interceptor
 import okhttp3.Response
 

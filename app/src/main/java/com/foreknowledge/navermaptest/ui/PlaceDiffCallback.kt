@@ -1,7 +1,7 @@
-package com.foreknowledge.navermaptest.ui
+package com.foreknowledge.navermapapi.ui
 
 import androidx.recyclerview.widget.DiffUtil
-import com.foreknowledge.navermaptest.model.data.Place
+import com.foreknowledge.navermapapi.model.data.Place
 
 /**
  * Created by Yeji on 26,May,2020.

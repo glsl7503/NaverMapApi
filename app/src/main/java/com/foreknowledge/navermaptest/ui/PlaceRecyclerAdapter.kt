@@ -1,11 +1,11 @@
-package com.foreknowledge.navermaptest.ui
+package com.foreknowledge.navermapapi.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.foreknowledge.navermaptest.databinding.ItemPlaceBinding
-import com.foreknowledge.navermaptest.model.data.Place
+import com.foreknowledge.navermapapi.databinding.ItemPlaceBinding
+import com.foreknowledge.navermapapi.model.data.Place
 import com.naver.maps.map.CameraAnimation
 import com.naver.maps.map.CameraUpdate
 import com.naver.maps.map.NaverMap

@@ -1,4 +1,4 @@
-package com.foreknowledge.navermaptest.network
+package com.foreknowledge.navermapapi.network
 
 import com.google.gson.annotations.SerializedName
 

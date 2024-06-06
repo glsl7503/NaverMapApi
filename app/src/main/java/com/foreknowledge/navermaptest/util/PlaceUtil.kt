@@ -1,9 +1,9 @@
-package com.foreknowledge.navermaptest.util
+package com.foreknowledge.navermapapi.util
 
 import androidx.core.content.ContextCompat
-import com.foreknowledge.navermaptest.GlobalApplication
-import com.foreknowledge.navermaptest.R
-import com.foreknowledge.navermaptest.model.data.Place
+import com.foreknowledge.navermapapi.GlobalApplication
+import com.foreknowledge.navermapapi.R
+import com.foreknowledge.navermapapi.model.data.Place
 import com.naver.maps.geometry.LatLng
 import com.naver.maps.map.overlay.Marker
 import com.naver.maps.map.util.MarkerIcons

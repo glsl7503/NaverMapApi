@@ -1,8 +1,8 @@
-package com.foreknowledge.navermaptest.util
+package com.foreknowledge.navermapapi.util
 
 import android.view.Gravity
 import android.widget.Toast
-import com.foreknowledge.navermaptest.GlobalApplication
+import com.foreknowledge.navermapapi.GlobalApplication
 
 /**
  * Created by Yeji on 13,April,2020.

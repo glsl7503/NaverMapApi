@@ -1,7 +1,7 @@
-package com.foreknowledge.navermaptest.util
+package com.foreknowledge.navermapapi.util
 
 import android.util.Log
-import com.foreknowledge.navermaptest.network.GeoResponse
+import com.foreknowledge.navermapapi.network.GeoResponse
 import java.lang.Exception
 
 /**

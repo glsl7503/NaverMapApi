@@ -1,8 +1,8 @@
-package com.foreknowledge.navermaptest.viewmodel
+package com.foreknowledge.navermapapi.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.foreknowledge.navermaptest.model.repository.NaverRepository
+import com.foreknowledge.navermapapi.model.repository.NaverRepository
 
 /**
  * Created by Yeji on 08,April,2020.

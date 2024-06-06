@@ -9,7 +9,7 @@
 		<variable name="placeCount" type="Integer" />
 		<variable
 			name="viewModel"
-			type="com.foreknowledge.navermaptest.viewmodel.MapViewModel" />
+			type="com.foreknowledge.navermapapi.viewmodel.MapViewModel" />
 	</data>
 
 	<androidx.coordinatorlayout.widget.CoordinatorLayout

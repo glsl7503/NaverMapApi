@@ -1,4 +1,4 @@
-package com.foreknowledge.navermaptest.network
+package com.foreknowledge.navermapapi.network
 
 import retrofit2.Call
 import retrofit2.http.GET
